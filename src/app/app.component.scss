@@ -1,0 +1,42 @@
+.font1{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.font2{
+  font-family: 'The Nautigal', cursive;
+}
+
+.buttons {
+  margin-bottom: 1em;
+}
+
+.buttons button {
+  margin-right: 1em;
+}
+
+.card-img{
+  position: relative;
+  text-align: center;
+  
+}
+
+.elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.spamClass{
+  position: absolute;
+  color: aliceblue; 
+  font-size: 5vh;
+  font-style: normal;
+  right: 34%;
+  z-index: 1;
+  width: 4vh;
+  height: 4vh;
+  align-items: flex-end;
+}

@@ -1,0 +1,28 @@
+<div>
+  <h1>Angular Unity</h1>
+  <p>Example showing a Unity view inside Angular</p>
+  <ul> 
+    <li><a href="#temperatura" (click)="load('temperatura')">Temperatura (3MB)</a></li>
+  </ul>
+
+
+<div class="card-img">
+  <div class="elements">
+      <img src="../assets/img/termometro.png" alt="">
+      <span class="spamClass font1">{{valorTemp}}</span>
+      
+  </div>
+</div>
+
+  <div class="buttons" >
+    <button (click)="send('AgenteMedicion', 'ChangeColdState')">Frio</button>
+    <button (click)="hola()">Save</button>
+    <button (click)="send('AgenteMedicion', 'ChangeHotState')">Calor</button>
+  </div>
+
+
+  <div> 
+    
+  </div>
+</div>
+<app-unity #unityView></app-unity>
